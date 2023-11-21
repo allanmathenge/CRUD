@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <Fragment>
-      <div style={{ margin: "10rem" }}>
+      <div style={{ margin: "5px" }}>
         <Table striped bordered hover size="sm">
           <thead>
             <tr>
@@ -41,7 +41,7 @@ function Home() {
                   <tr key={item.id}>
                     <td>{item.Name}</td>
                     <td>{item.Number}</td>
-                    <td>
+                    <td style={{ display: "flex", gap: "2px", flex: "column" }}>
                       <Link to={`/edit`}>
                         <Button
                           onClick={() =>

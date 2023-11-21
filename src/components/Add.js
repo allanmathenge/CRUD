@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Employees from "./Employees";
 import { v4 as uuid } from "uuid";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Add = () => {
   const [name, setName] = useState("");
@@ -25,7 +25,7 @@ const Add = () => {
 
   return (
     <div>
-      <Form className="d-grid gap-2" style={{ margin: "15rem" }}>
+      <Form className="d-grid gap-2" style={{ margin: "2px" }}>
         <Form.Group className="mb-3" controlId="formName">
           <Form.Control
             type="text"
