@@ -1,18 +1,18 @@
 const Employees = [
   {
     id: "1",
-    Name: "Allan Mathenge",
-    Number: "25",
+    Name: "Freezers",
+    Number: "1",
   },
   {
     id: "2",
-    Name: "Jane Waturi",
-    Number: "27",
+    Name: "The Pieces",
+    Number: "4",
   },
   {
     id: "3",
-    Name: "Kevin Njoro",
-    Number: "17",
+    Name: "History of Time",
+    Number: "22",
   },
 ];
 
